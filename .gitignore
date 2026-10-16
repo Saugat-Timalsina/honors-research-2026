@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Local caches
+.cache/
+
+# Raw StudyChat dataset - NEVER upload
+data/StudyChat/
+
+# Private row-level research outputs
+audit_outputs/*PRIVATE*
+audit_outputs/private/
+
+# Secrets
+.env
+*.token
+*credentials*
+*secret*
+
+# Jupyter
+.ipynb_checkpoints/
